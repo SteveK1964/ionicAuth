@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { UserService } from '../user.service';
 import { Router } from '@angular/router';
-
+console.log('In logout.page.ts');
 @Component({
   selector: 'app-logout',
   templateUrl: './logout.page.html',

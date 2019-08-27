@@ -6,7 +6,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 
 import { LogoutPage } from './logout.page';
-
+console.log('In logout.module.ts');
 const routes: Routes = [
   {
     path: '',

@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms'; 
 import { Router } from '@angular/router';
-
 import { UserService } from '../user.service';
 import { User } from '../users';
 
@@ -23,7 +22,7 @@ export class RegisterPage implements OnInit {
   ngOnInit() {}
 
   response(response): void{
-    
+    console.log('In register page in response');
     if(response.success==false){
       console.log(response.errors);
       

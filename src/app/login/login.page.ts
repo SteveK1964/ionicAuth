@@ -1,18 +1,19 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms'; 
-
 import { UserService } from '../user.service';
 import { User } from '../users';
+console.log('In login.page.ts');
 
 @Component({
   selector: 'app-login',
   templateUrl: './login.page.html',
   styleUrls: ['./login.page.scss'],
 })
+
 export class LoginPage implements OnInit {
 
   user:User = new User();
-  errorMessage: string;
+  errorMessage: any;
 
   constructor(
     private userService: UserService
@@ -37,5 +38,4 @@ export class LoginPage implements OnInit {
       }
     );
   }
-
 }

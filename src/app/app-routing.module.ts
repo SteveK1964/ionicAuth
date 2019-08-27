@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-
+console.log('In app.routing.log');
 const routes: Routes = [
   {
     path: '',

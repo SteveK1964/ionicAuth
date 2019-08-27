@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
-
 import { Platform } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
-
+console.log('In app.component.ts');
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html'
